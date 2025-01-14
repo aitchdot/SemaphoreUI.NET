@@ -1,6 +1,6 @@
 # .NET Client for Semaphore UI API
 
-This library allows you to interact with the Semaphore UI API endpoints in your .NET applications.
+This library allows you to interact with the [Semaphore UI](https://github.com/semaphoreui/semaphore) API endpoints in your .NET applications.
 
 ## Installation
 
