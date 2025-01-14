@@ -26,9 +26,9 @@ dotnet add package SemaphoreUI.NET
 ### Initializing the Client
 
 ```csharp
-using Semaphore.UI.Client;
+using Semaphore.UI.NET;
 
-SemaphoreApiClient client = new(new SemaphoreUiConfiguration(
+SemaphoreUiClient client = new(new SemaphoreUiConfiguration(
     new Uri("https://semaphore.domain.tld:3000"), "User", "Password")
      .CreateClient();
 ```
