@@ -28,8 +28,8 @@ dotnet add package SemaphoreUI.NET
 ```csharp
 using Semaphore.UI.NET;
 
-SemaphoreUiClient client = new(new SemaphoreUiConfiguration(
-    new Uri("https://semaphore.domain.tld:3000"), "User", "Password")
+SemaphoreUiClient client = new SemaphoreUiConfiguration(
+    new Uri("https://semaphore.domain.tld:3000"), "User", "Password"))
      .CreateClient();
 ```
 
