@@ -17,6 +17,6 @@ public class SemaphoreUiConfiguration
 
     public SemaphoreUiClient CreateClient()
     {
-        return new DockerClient(this);
+        return new SemaphoreUiClient(this);
     }
 }
