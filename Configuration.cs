@@ -14,4 +14,9 @@ public class SemaphoreUiConfiguration
     public string BaseUrl { get; set; } = "https://localhost:3000";
     public string Username { get; set; }
     public string Password { get; set; }
+
+    public SemaphoreUiClient CreateClient()
+    {
+        return new DockerClient(this);
+    }
 }
